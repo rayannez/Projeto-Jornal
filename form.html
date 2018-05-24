@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+
+	<title>Entre no Site</title>
+
+	  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+		<link rel="stylesheet"  href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+	
+
+	<!--JavaScript-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://plentz.github.io/jquery-maskmoney/javascripts/jquery.maskMoney.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js"></script>
+
+	<!--Mascara-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+	  	$('#dataNascimento').mask('00/00/0000');
+		})
+		</script>
+
+  <!--CSS-->
+		<style type="text/css">
+			body{
+			background-image: url("img/london.jpg");
+				}
+
+		</style>
+</head>
+
+	<body>
+	 	<div class="container">
+
+	      	<form class="form-signin" role="form" name="formCadastro" method="post" 
+	      	action="file:///C:/wamp/www/bootstrap/bootstrap/jornal.html">
+
+        		<h2 class="form-signin-heading">Entrar</h2>
+
+		        <input type="text" class="form-control" id="nome" placeholder="Name" required autofocus>
+
+		        <input type="email" class="form-control" id="email" placeholder="Email" required>
+
+		        <input type="text" class="form-control" name="dataNascimento" id="dataNascimento" placeholder="Data de Nascimento"/>
+
+       			 <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+
+      		</form>
+    	</div>
+
+	</body>
+</html>

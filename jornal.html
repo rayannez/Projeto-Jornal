@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!--Cabeçalho (MetaTags)-->
+
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width initial-scale=1">
+
+	<title>Jornal Noticias</title>
+
+	<!--Bootstrap-->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/carousel.css">
+
+
+	<!--JavaScript-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+		<body>
+
+	<!--Barra de Navegação-->
+
+			<nav class="navbar navbar-default navbar-fixed-top">
+				 <div class="container-fluid">
+				    <div class="navbar-header">
+				      <a class="navbar-brand" href="#"> Jornal</a>
+				    </div>
+
+				    <ul class="nav navbar-nav">
+				      <li class="active"><a href="#"> Home</a></li>
+				      <li><a href="#"> Revistas</a></li>
+
+				      <li><a href="#"> Esportes</a></li>
+
+				      <li class="dropdown">
+				        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Outros
+				        <span class="caret"></span></a>
+
+				        <ul class="dropdown-menu">
+				          <li><a href="#">Lazer</a></li>
+				          <li><a href="#">Videos</a></li>
+				          <li><a href="#">Cultura</a></li>
+				        </ul>
+				      </li>
+
+				    </ul>
+
+
+				<form class="navbar-form navbar-left">
+				  <div class="input-group">
+				    <input type="text" class="form-control" placeholder="Pesquise">
+				   
+				    <div class="input-group-btn">
+				      <button class="btn btn-default" type="submit">
+				        <i class="glyphicon glyphicon-search"></i>
+				      </button>
+				     </div>
+				  </div>
+				</form>
+
+
+				    <ul class="nav navbar-nav navbar-right">
+				<li><a href="#"> <span class="glyphicon glyphicon-globe"></span>  Mais</a></li>
+
+			</ul>
+		</div>
+	</nav>
+
+
+			<!--Jumbotron JavaScript-->
+
+			
+			<div class="jumbotron text-center">
+				<h1>Jornal Noticias</h1>
+
+				<p class="lead">Noticias atualizadas todos os dias para deixar nosso cliente sempre bem informado. </p>
+
+			</div>
+
+
+			<!--Carousel-->
+
+				<div id="meuCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#meuCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#meuCarousel" data-slide-to="1"></li>
+			    <li data-target="#meuCarousel" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="img/london.jpg" alt="Los Angeles">
+			       <div class="carousel-caption">
+			        <h3>Los Angeles</h3>
+			        <p>LA is always so much fun!</p>
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <img src="img/london2.jpg" alt="Chicago">
+			    </div>
+
+			    <div class="item">
+			      <img src="img/london.jpg" alt="New York">
+			    </div>
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#meuCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+
+			  <a class="right carousel-control" href="#meuCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+
+	
+
+	<!--Colunas-->
+
+	<div class="container marketing">
+
+		<div class="row">
+			<div class="col-lg-4">
+				<img  src="img/jornal1.jpg" alt="Generic placeholder image" width="140" height="140">
+				<h2>Comercio</h2>
+				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+
+				<p><a class="btn btn-info" href="#" role="button">View details &raquo;</a></p>
+			</div>
+
+
+			<div class="col-lg-4">
+				<img class="rounded-circle" src="img/jornal2.jpg" alt="Generic placeholder image" width="140" height="140">
+				<h2>Saúde</h2>
+				<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+
+				<p><a class="btn btn-danger" href="#" role="button">View details &raquo;</a></p>
+			</div>
+
+			<div class="col-lg-4">
+				<img class="rounded-circle" src="img/jornal3.jpg" alt="Generic placeholder image" width="140" height="140">
+				<h2>Destaques</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+				<p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+ <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a class="btn btn-warning" href="#" role="button">Back to top</a></p>
+
+        <p>&copy; 2018 Rayanne Cristinny &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    
+</body>
+</html>
